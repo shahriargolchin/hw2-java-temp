@@ -18,14 +18,14 @@ public class InvertedIndex {
             System.out.println("********Welcome to  Homework 2!");
             String query = "schizophrenia /2 drug";
             InvertedIndex objInvertedIndex = new InvertedIndex(fileName);
-            Document[]  ans = objInvertedIndex.runQ7_1_1(query);
+            Document[]  ans = objInvertedIndex.runQ8_1_1(query);
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    public Document[] runQ7_1_1(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
+    public Document[] runQ8_1_1(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
         //check if index exists, else create one
         Document ans1=new Document("Doc1",3,1);
         Document ans2=new Document("Doc2",1,2);
@@ -33,7 +33,7 @@ public class InvertedIndex {
         return dummy_ans;
     }
 
-    public Document[] runQ7_1_2(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
+    public Document[] runQ8_1_2(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
         //check if index exists, else create one
         Document ans1=new Document("Doc1",3,1);
         Document ans2=new Document("Doc2",1,2);
@@ -42,7 +42,7 @@ public class InvertedIndex {
         return dummy_ans;
     }
 
-    public Document[] runQ7_2_directional(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
+    public Document[] runQ8_2_directional(String query) throws java.io.FileNotFoundException,ArrayIndexOutOfBoundsException {
         //check if index exists, else create one
         Document ans1=new Document("Doc2",1,2);
         Document[] dummy_ans= {ans1};
