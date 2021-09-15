@@ -33,7 +33,7 @@ the class `InvertedIndex`. These functions should return the documents as asked 
 Also, you **should not edit** these files:
 - `.travis.yml`
 - `src/main/resources/Docs.txt`
-- `src/test/java/edu/arizona/cs/TestQ7_hw2.java`
+- `src/test/java/edu/arizona/cs/TestQ8_hw2.java`
 - `src/main/java/edu/arizona/cs/Document.java`
 
 
