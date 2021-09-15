@@ -15,7 +15,7 @@ public class TestQ7_hw2 {
             Document ans2=new Document("Doc2",1,2);
             Document[] gold_q7_1_1= {ans1,ans2};
             InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
-            Document[] ans_q7_1_1 = objInvertedIndex.runQ7_1_1(query);
+            Document[] ans_q7_1_1 = objInvertedIndex.runQ8_1_1(query);
 
             assert ans_q7_1_1 !=null;
             assert ans_q7_1_1.length > 0;
@@ -44,7 +44,7 @@ public class TestQ7_hw2 {
             Document ans3=new Document("Doc3",5,1);
             Document[] gold_q7_1_2= {ans1,ans2,ans3};
             InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
-            Document[] ans_q7_1_2 = objInvertedIndex.runQ7_1_2(query);
+            Document[] ans_q7_1_2 = objInvertedIndex.runQ8_1_2(query);
 
             assert ans_q7_1_2 !=null;
             assert ans_q7_1_2.length > 0;
@@ -72,7 +72,7 @@ public class TestQ7_hw2 {
             Document ans1=new Document("Doc2",1,2);
             Document[] gold_q7_1_2= {ans1};
             InvertedIndex objInvertedIndex = new InvertedIndex(inputFileFullPath);
-            Document[] ans_q7_2_directional = objInvertedIndex.runQ7_2_directional(query);
+            Document[] ans_q7_2_directional = objInvertedIndex.runQ8_2_directional(query);
 
             assert ans_q7_2_directional !=null;
             assert ans_q7_2_directional.length > 0;
